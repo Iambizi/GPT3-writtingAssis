@@ -51,7 +51,7 @@ const TextBox = ()=>{
             <div className={styles.promptButtons}>
                 <a className={isGenerating ? `${styles.generateButton} loading` : styles.generateButton } onClick={callGenerateEndpoint}>
                 <div className={styles.generate}>
-                    {isGenerating ? <span class={styles.loader}></span> : <p>Generate</p>}
+                    {isGenerating ? <span className={styles.loader}></span> : <p>Generate</p>}
                 </div>
                 </a>
             </div>
@@ -67,7 +67,6 @@ const TextBox = ()=>{
                     </div>
                 </div>
             )}
-
 	    </>
     )
 }
