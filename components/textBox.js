@@ -37,15 +37,15 @@ const TextBox = ()=>{
         <>
             <div className="header">
                 <div className={styles.headerTitle}>
-                    <h3>✨Magic Media Kit Generator✨</h3>
+                    <h3>✨A Magic GPT-3 Writting assistant✨</h3>
                 </div>
-                <div className={styles.headerSubtitle}>
-                    <p>insert an example of a company you'd like a Media Kit from</p>
-                </div>
+                {/* <div className={styles.headerSubtitle}>
+                    <p>Writes any pro</p>
+                </div> */}
             </div>
 
             <div className={styles.promptContainer}>
-                <textarea placeholder="start typing here" className={styles.promptBox} onChange={onUserChangedText}/>
+                <textarea placeholder="Type a prompt here" className={styles.promptBox} onChange={onUserChangedText}/>
             </div>
             {/*Button generate*/}
             <div className={styles.promptButtons}>
