@@ -55,6 +55,7 @@ export default function Home() {
 
       <footer className={styles.footer}> 
           Likkle Prototype for L.T.
+          <span className={styles.version}>Tis version 0.1.0</span>
       </footer>
     </div>
   )

@@ -19,6 +19,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .footer a {
@@ -106,6 +107,12 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.version{
+  font-size: 0.8em;
+  display: block;
+  margin-top: 10px;
 }
 
 @media (max-width: 600px) {
