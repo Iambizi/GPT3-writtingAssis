@@ -209,7 +209,7 @@
     width: 100%;
 }
 
-.output-header-container {
+.outputHeaderContainer {
     place-content: center;
     align-items: center;
     display: flex;
@@ -223,18 +223,18 @@
     width: 100%;
 }
 
-.output-header h3 {
-    font-family: "Manrope", serif;
-    font-size: 28px;
+.outputHeader h3 {
+    
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     letter-spacing: 0px;
     line-height: 1.4em;
     text-align: start;
-    color: #ffffff;
+    color: black;
     text-decoration: none;
     text-transform: none;
-    margin: 0;
+    margin: 15px 0;
 }
 
 .output-content {
