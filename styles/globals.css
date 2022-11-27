@@ -24,3 +24,7 @@ a {
     background: #f0f0f0;
   }
 }
+
+textarea {
+  font-family: 'Manrope', sans-serif;
+}
