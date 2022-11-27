@@ -43,7 +43,16 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3.4rem;
+}
+
+.title span{
+  font-family: 'Modak', cursive;
+  background: -webkit-linear-gradient(#eee, #AA00FF);
+  line-height: 1.15;
+  font-size: 4.8rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .title,
