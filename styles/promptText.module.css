@@ -301,6 +301,7 @@
 
     .headerTitle h3 {
         font-size: 17px;
+        text-align: center;
     }
 
     .key-stroke, .or {

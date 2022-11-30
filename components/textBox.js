@@ -37,7 +37,7 @@ const TextBox = ()=>{
         <>
             <div className="header">
                 <div className={styles.headerTitle}>
-                    <h3>✨A Magic GPT-3 Writting assistant✨</h3>
+                    <h3>✨Magic GPT-3 writting assistant with a PR perspective✨</h3>
                 </div>
                 {/* <div className={styles.headerSubtitle}>
                     <p>Writes any pro</p>
