@@ -299,6 +299,10 @@
         text-align: center;
     }
 
+    .headerTitle h3 {
+        font-size: 17px;
+    }
+
     .key-stroke, .or {
         display: none;
     }
@@ -316,6 +320,8 @@
         width: 100%;
     }
 }
+
+
 
 
 
