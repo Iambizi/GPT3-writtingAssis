@@ -6,7 +6,7 @@ const TextBox = ()=>{
     const [userInput, setUserInput] = useState('');
 
     const onUserChangedText = (event) => {
-        console.log(event.target.value);
+        console.log(`User Prompt : ${event.target.value}`);
         setUserInput(event.target.value);
       };
      
