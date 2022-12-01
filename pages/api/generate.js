@@ -6,7 +6,9 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-const basePromptPrefix = `As a public relation specialist`;
+// const basePromptPrefix = `As a public relation specialist`;
+const basePromptPrefix = ``;
+
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}\n`)
