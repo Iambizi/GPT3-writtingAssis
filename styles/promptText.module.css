@@ -11,10 +11,7 @@
 }
 
 .promptBox {
-    border-bottom-width: 1px;
-    border-left-width: 1px;
-    border-right-width: 1px;
-    border-style: solid;
+    border: solid 1px grey;
     border-top-width: 1px;
     place-content: flex-start;
     align-items: flex-start;
@@ -45,7 +42,7 @@
 }
 
 .promptBox:focus {
-    border-color:black;
+    border-color: black;
 }
 
 
